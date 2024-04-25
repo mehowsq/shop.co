@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Satoshi-Light";
+  src: url("fonts/Satoshi-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Satoshi-Medium";
+  src: url("fonts/Satoshi-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Integral CF";
+  src:
+    local("Integral CF Bold"),
+    url("fonts/IntegralCF-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
