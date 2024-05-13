@@ -3,35 +3,35 @@ import { Button } from "~/components/ui/button";
 export default function HeroSection() {
   return (
     <div className="bg-light-white px-4 py-10">
-      <p className="text-black font-integralCF text-4xl leading-9">
+      <p className="font-integralCF text-4xl leading-9 text-black">
         FIND CLOTHES THAT MATCHES YOUR STYLE
       </p>
-      <p className="font-satoshi text-sm pt-5 pb-10">
+      <p className="font-satoshi pb-10 pt-5 text-sm">
         Browse through our diverse range of meticulously crafted garments,
         designed to bring out your individuality and cater to your sense of
         style.
       </p>
 
-      <Button className="w-full rounded-full h-[3.25rem] font-satoshi text-base">
+      <Button className="font-satoshi h-[3.25rem] w-full rounded-full text-base">
         Shop Now
       </Button>
       <div className="flex flex-wrap justify-center  pt-[22px]">
         <div>
-          <p className="text-2xl font-satoshi ">200+</p>
-          <p className="text-xs font-satoshi opacity-60">
+          <p className="font-satoshi text-2xl ">200+</p>
+          <p className="font-satoshi text-xs opacity-60">
             International Brands
           </p>
         </div>
-        <div className="w-[1px] opacity-10 mx-[27.5px] bg-black"></div>
+        <div className="mx-[27.5px] w-[1px] bg-black opacity-10"></div>
         <div>
-          <p className="text-2xl font-satoshi ">2000+</p>
-          <p className="text-xs font-satoshi opacity-60">
+          <p className="font-satoshi text-2xl ">2000+</p>
+          <p className="font-satoshi text-xs opacity-60">
             High-Quality Products
           </p>
         </div>
         <div>
-          <p className="text-2xl font-satoshi ">30,000+</p>
-          <p className="text-xs font-satoshi opacity-60">Happy Customers</p>
+          <p className="font-satoshi text-2xl ">30,000+</p>
+          <p className="font-satoshi text-xs opacity-60">Happy Customers</p>
         </div>
       </div>
       <img src="/images/hero-image.jpg" alt="" />

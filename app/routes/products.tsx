@@ -6,12 +6,12 @@ export default function ProductsSection() {
   return (
     <div>
       <div className="pt-12">
-        <p className="font-integralCF text-center text-3xl pb-8">
+        <p className="pb-8 text-center font-integralCF text-3xl">
           NEW ARRIVALS
         </p>
         <ProductsCarousel />
         <div className="px-4 pt-6 ">
-          <Button variant="outline" className="rounded-full w-full h-11">
+          <Button variant="outline" className="h-11 w-full rounded-full">
             View All
           </Button>
         </div>
@@ -19,10 +19,10 @@ export default function ProductsSection() {
       </div>
 
       <div>
-        <p className="font-integralCF text-center text-3xl pb-8">TOP SELLING</p>
+        <p className="pb-8 text-center font-integralCF text-3xl">TOP SELLING</p>
         <ProductsCarousel />
-        <div className="px-4 pt-6 pb-12">
-          <Button variant="outline" className="rounded-full w-full h-11">
+        <div className="px-4 pb-12 pt-6">
+          <Button variant="outline" className="h-11 w-full rounded-full">
             View All
           </Button>
         </div>
