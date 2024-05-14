@@ -1,8 +1,9 @@
 import type { MetaFunction } from "@remix-run/node";
 import BrandsCard from "~/components/BrandsCard";
 import HeroSection from "~/components/HeroSection";
+import ProductsSection from "~/components/Product/ProductsSection";
+import ProductCategorySection from "~/components/ProductCategorySection";
 import Navigation from "~/components/navigation";
-import ProductsSection from "~/routes/products";
 
 export const meta: MetaFunction = () => {
   return [
@@ -18,6 +19,7 @@ export default function Index() {
       <HeroSection />
       <BrandsCard />
       <ProductsSection />
+      <ProductCategorySection />
     </div>
   );
 }

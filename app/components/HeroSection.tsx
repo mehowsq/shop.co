@@ -6,7 +6,7 @@ export default function HeroSection() {
       <p className="font-integralCF text-4xl leading-9 text-black">
         FIND CLOTHES THAT MATCHES YOUR STYLE
       </p>
-      <p className="font-satoshi pb-10 pt-5 text-sm">
+      <p className="font-satoshi pb-10 pt-5 text-sm font-extralight text-[#00000099]">
         Browse through our diverse range of meticulously crafted garments,
         designed to bring out your individuality and cater to your sense of
         style.
