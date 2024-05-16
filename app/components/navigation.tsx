@@ -1,12 +1,16 @@
+// import {
+//   Menubar,
+//   MenubarContent,
+//   MenubarItem,
+//   MenubarMenu,
+//   MenubarSeparator,
+//   MenubarShortcut,
+//   MenubarTrigger,
+// } from "~/components/ui/menubar";
+
 export default function Navigation() {
   return (
     <div>
-      <div className="flex  h-8 items-center justify-center bg-black">
-        <h1 className="font-satoshi text-xs text-white">
-          Sign up and get 20% off to your first order.{" "}
-          <span className="font-bold underline">Sign Up Now</span>
-        </h1>
-      </div>
       <div className="flex justify-between px-4 py-6">
         <div className="flex gap-3">
           <img src="/images/menu-burger-icon.svg" alt="Menu icon" />
@@ -18,6 +22,21 @@ export default function Navigation() {
           <img src="/images/profile-icon.svg" alt="Profile icon" />
         </div>
       </div>
+      {/* <Menubar>
+        <MenubarMenu>
+          <MenubarTrigger>File</MenubarTrigger>
+          <MenubarContent>
+            <MenubarItem>
+              New Tab <MenubarShortcut>⌘T</MenubarShortcut>
+            </MenubarItem>
+            <MenubarItem>New Window</MenubarItem>
+            <MenubarSeparator />
+            <MenubarItem>Share</MenubarItem>
+            <MenubarSeparator />
+            <MenubarItem>Print</MenubarItem>
+          </MenubarContent>
+        </MenubarMenu>
+      </Menubar> */}
     </div>
   );
 }
