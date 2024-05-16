@@ -15,7 +15,7 @@ export default function DiscountCard() {
         <span className="font-satoshi font-medium underline">Sign Up Now</span>
       </h1>
       <button
-        className="md:visible invisible text-white hover:text-gray-300"
+        className="md:visible  invisible absolute right-28 text-white hover:text-gray-300"
         onClick={handleClose}
       >
         <X className="h-5 w-5 " />
