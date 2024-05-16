@@ -3,6 +3,7 @@ import BrandsCard from "~/components/BrandsCard";
 import DiscountCard from "~/components/DiscountCard";
 import FeedbackSection from "~/components/Feedback/FeedbackSection";
 import HeroSection from "~/components/HeroSection";
+import Newsletter from "~/components/Newsletter/Newsletter";
 import ProductsSection from "~/components/Product/ProductsSection";
 import ProductCategorySection from "~/components/ProductCategorySection";
 import Navigation from "~/components/navigation";
@@ -24,6 +25,7 @@ export default function Index() {
       <ProductsSection />
       <ProductCategorySection />
       <FeedbackSection />
+      <Newsletter />
     </div>
   );
 }

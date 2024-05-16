@@ -7,7 +7,7 @@ import {
 
 export default function FeedbackCarousel() {
   return (
-    <Carousel className="pb-6">
+    <Carousel className="pb-12">
       <CarouselContent>
         <CarouselItem>
           <FeedbackCard />
