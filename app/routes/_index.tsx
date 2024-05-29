@@ -1,12 +1,13 @@
 import type { MetaFunction } from "@remix-run/node";
-import BrandsCard from "~/components/BrandsCard";
-import DiscountCard from "~/components/DiscountCard";
-import FeedbackSection from "~/components/Feedback/FeedbackSection";
-import HeroSection from "~/components/HeroSection";
-import Newsletter from "~/components/Newsletter/Newsletter";
-import ProductsSection from "~/components/Product/ProductsSection";
-import ProductCategorySection from "~/components/ProductCategorySection";
+import BrandsCard from "~/components/brands-card";
+import DiscountCard from "~/components/discount-card";
+import FeedbackSection from "~/components/Feedback/feedback-section";
+
+import ProductsSection from "~/components/Product/products-section";
 import Navigation from "~/components/navigation";
+import ProductCategorySection from "~/components/product-category-section";
+import HeroSection from "~/components/hero-section";
+import Newsletter from "~/components/Newsletter/newsletter";
 
 export const meta: MetaFunction = () => {
   return [
@@ -17,7 +18,7 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
   return (
-    <div>
+    <>
       <DiscountCard />
       <Navigation />
       <HeroSection />
@@ -26,6 +27,12 @@ export default function Index() {
       <ProductCategorySection />
       <FeedbackSection />
       <Newsletter />
-    </div>
+    </>
   );
 }
+
+// 1. uspójnić nazwenictwo plików
+// 2. Zamiast tworzyc nowy komponent lepiej "budować z klocków" --> SearchInput (do naprawy) + newsletter input
+// 3. Skontruować w sumie jeden komponent, który będzie miał {children}(albo icon) i zamiast w kadym wrzucac ikonkę czy coś to lepiej przekazywac mu dany komponent
+// 4. responsywność strony (chodzi o menubar bo sie zepsul)
+// 5. Gwiazdki - research

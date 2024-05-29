@@ -18,7 +18,7 @@ export default function HeroSection() {
         </Button>
         <div className="flex flex-wrap justify-center  pt-[22px]">
           <div>
-            <p className="font-satoshiBlack text-2xl ">200+</p>
+            <p className="font-satoshiBlack text-2xl">200+</p>
             <p className="font-satoshi text-xs opacity-60">
               International Brands
             </p>

@@ -1,4 +1,4 @@
-import ProductCategoryCard from "~/components/ProductCategoryCard";
+import ProductCategoryCard from "~/components/product-category-card";
 
 export default function ProductCategorySection() {
   return (

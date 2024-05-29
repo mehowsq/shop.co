@@ -1,4 +1,4 @@
-import NewsletterForm from "~/components/Newsletter/NewsletterForm";
+import NewsletterForm from "~/components/Newsletter/newsletter-form";
 
 export default function Newsletter() {
   return (

@@ -1,4 +1,4 @@
-import FeedbackCard from "~/components/Feedback/FeedbackCard";
+import FeedbackCard from "~/components/Feedback/feedback-card";
 import {
   Carousel,
   CarouselContent,

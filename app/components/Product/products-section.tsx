@@ -1,4 +1,4 @@
-import ProductsCarousel from "~/components/Product/ProductsCarousel";
+import ProductsCarousel from "~/components/Product/products-carousel";
 import { Button } from "~/components/ui/button";
 import { Separator } from "~/components/ui/separator";
 
