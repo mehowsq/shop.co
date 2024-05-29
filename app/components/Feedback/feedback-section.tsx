@@ -1,4 +1,4 @@
-import FeedbackCarousel from "~/components/Feedback/FeedbackCarousel";
+import FeedbackCarousel from "~/components/Feedback/feedback-carousel";
 
 export default function FeedbackSection() {
   return (
