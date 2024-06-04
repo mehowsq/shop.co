@@ -8,6 +8,7 @@ import Navigation from "~/components/navigation";
 import ProductCategorySection from "~/components/product-category-section";
 import HeroSection from "~/components/hero-section";
 import Newsletter from "~/components/Newsletter/newsletter";
+import Footer from "~/components/footer";
 
 export const meta: MetaFunction = () => {
   return [
@@ -27,12 +28,7 @@ export default function Index() {
       <ProductCategorySection />
       <FeedbackSection />
       <Newsletter />
+      <Footer />
     </>
   );
 }
-
-// 1. uspójnić nazwenictwo plików
-// 2. Zamiast tworzyc nowy komponent lepiej "budować z klocków" --> SearchInput (do naprawy) + newsletter input
-// 3. Skontruować w sumie jeden komponent, który będzie miał {children}(albo icon) i zamiast w kadym wrzucac ikonkę czy coś to lepiej przekazywac mu dany komponent
-// 4. responsywność strony (chodzi o menubar bo sie zepsul)
-// 5. Gwiazdki - research

@@ -2,7 +2,7 @@ import { Card, CardContent } from "~/components/ui/card";
 
 export default function FeedbackCard() {
   return (
-    <div className="px-4 pt-6">
+    <div className="px-4 pt-6 md:w-[400px]">
       <Card className="rounded-3xl">
         <CardContent className="p-6">
           <img src="/images/icon-5-stars.svg" alt="Rating Stars" />

@@ -7,11 +7,8 @@ import {
 
 export default function ProductsCarousel() {
   return (
-    <Carousel>
+    <Carousel className="md: flex justify-center">
       <CarouselContent className="px-4 pt-4">
-        <CarouselItem className="basis-auto">
-          <ProductCard />
-        </CarouselItem>
         <CarouselItem className="basis-auto">
           <ProductCard />
         </CarouselItem>

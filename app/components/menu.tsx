@@ -16,7 +16,7 @@ import {
 import { ChevronDown } from "lucide-react";
 export function MenubarDemo() {
   return (
-    <Menubar>
+    <Menubar className="invisible md:visible">
       <MenubarMenu>
         <MenubarTrigger>
           Shop <ChevronDown strokeWidth={1.5} size={20} />
