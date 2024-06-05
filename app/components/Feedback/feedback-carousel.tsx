@@ -9,13 +9,19 @@ export default function FeedbackCarousel() {
   return (
     <Carousel className="pb-12">
       <CarouselContent>
-        <CarouselItem>
+        <CarouselItem className="md:basis-auto">
           <FeedbackCard />
         </CarouselItem>
-        <CarouselItem>
+        <CarouselItem className="md:basis-auto">
           <FeedbackCard />
         </CarouselItem>
-        <CarouselItem>
+        <CarouselItem className="md:basis-auto">
+          <FeedbackCard />
+        </CarouselItem>
+        <CarouselItem className="md:basis-auto">
+          <FeedbackCard />
+        </CarouselItem>
+        <CarouselItem className="md:basis-auto">
           <FeedbackCard />
         </CarouselItem>
       </CarouselContent>

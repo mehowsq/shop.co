@@ -34,7 +34,7 @@ export default function NewsletterForm() {
                 <NewsletterInput
                   placeholder="Enter your email address"
                   {...field}
-                  className="h-[42px] rounded-full font-satoshiLight text-[#00000066]"
+                  className="h-[42px] rounded-full font-satoshiLight text-[#00000066] md:h-[48px]"
                 />
               </FormControl>
               <FormMessage />
@@ -44,7 +44,7 @@ export default function NewsletterForm() {
         <Button
           type="submit"
           variant="secondary"
-          className="font-satoshiMedium h-[42px] w-full rounded-full"
+          className="font-satoshiMedium h-[42px] w-full rounded-full md:h-[48px]"
         >
           Subscribe to Newsletter
         </Button>

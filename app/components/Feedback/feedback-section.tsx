@@ -2,8 +2,8 @@ import FeedbackCarousel from "~/components/Feedback/feedback-carousel";
 
 export default function FeedbackSection() {
   return (
-    <div>
-      <p className="px-4 pb-6 pt-12 text-left font-integralCF text-3xl">
+    <div className="md:px-24">
+      <p className="px-4 pb-6 pt-12 text-left font-integralCF text-3xl md:text-4xl">
         OUR HAPPY CUSTOMERS
       </p>
       <FeedbackCarousel />

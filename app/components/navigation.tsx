@@ -1,11 +1,9 @@
-// import { useState } from "react";
 import { MenubarDemo } from "~/components/menu";
 import SearchBar from "~/components/search";
 
 export default function Navigation() {
-  // const [isMobile, setIsMobile] = useState();
   return (
-    <div className=" flex justify-between px-4 py-6 md:px-24">
+    <div className=" bottom-[50%] flex justify-between px-4 py-6 md:px-24">
       <div className="flex items-center gap-4 ">
         <img
           src="/images/menu-burger-icon.svg"
@@ -14,7 +12,7 @@ export default function Navigation() {
         />
         <p className="font-integralCF text-2xl">SHOP.CO</p>
       </div>
-      <MenubarDemo />
+      {/* <MenubarDemo /> */}
       <SearchBar />
 
       <div className="flex justify-end gap-3">
