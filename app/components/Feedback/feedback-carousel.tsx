@@ -3,6 +3,8 @@ import {
   Carousel,
   CarouselContent,
   CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
 } from "~/components/ui/carousel";
 
 export default function FeedbackCarousel() {
@@ -25,6 +27,8 @@ export default function FeedbackCarousel() {
           <FeedbackCard />
         </CarouselItem>
       </CarouselContent>
+      <CarouselPrevious />
+      <CarouselNext />
     </Carousel>
   );
 }

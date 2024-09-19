@@ -7,7 +7,7 @@ import ProductsSection from "~/components/Product/products-section";
 import Navigation from "~/components/navigation";
 import ProductCategorySection from "~/components/product-category-section";
 import HeroSection from "~/components/hero-section";
-import Newsletter from "~/components/Newsletter/newsletter";
+import Newsletter from "~/components/Newsletter/Newsletter";
 import Footer from "~/components/footer";
 
 export const meta: MetaFunction = () => {
