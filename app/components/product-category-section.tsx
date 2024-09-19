@@ -8,27 +8,27 @@ export default function ProductCategorySection() {
           BROWSE BY DRESS STYLE
         </p>
 
-        <div className="grid grid-cols-3 gap-x-5 gap-y-6 px-16">
-          <div className="col-span-1 ">
+        <div className="grid grid-cols-1 gap-x-5 gap-y-6 px-4 md:grid-cols-3 md:px-16">
+          <div className="col-span-1 md:col-span-1">
             <ProductCategoryCard
               title="Casual"
               image="/images/person-image.png"
             />
           </div>
-          <div className="col-span-2 ">
+          <div className="col-span-1 md:col-span-2">
             <ProductCategoryCard
               title="Formal"
               image="/images/person-image.png"
             />
           </div>
 
-          <div className="col-span-2 ">
+          <div className="col-span-1 md:col-span-2">
             <ProductCategoryCard
               title="Party"
               image="/images/person-image.png"
             />
           </div>
-          <div className="col-span-1 ">
+          <div className="col-span-1 md:col-span-1">
             <ProductCategoryCard title="Gym" image="/images/person-image.png" />
           </div>
         </div>
