@@ -34,9 +34,9 @@ const SizeButton = ({ size, isSelected, onSelect }: SizeButtonProps) => {
   );
 };
 
-const SizeSelector = () => {
+const SizeSelectorButton = () => {
   const sizes: Size[] = ["Small", "Medium", "Large", "X-Large"];
-  const [selectedSize, setSelectedSize] = useState<Size | null>(null);
+  const [selectedSize, setSelectedSize] = useState<Size | null>("Large");
 
   const handleSizeSelect = (size: Size) => {
     setSelectedSize(size);
@@ -56,4 +56,4 @@ const SizeSelector = () => {
   );
 };
 
-export default SizeSelector;
+export default SizeSelectorButton;

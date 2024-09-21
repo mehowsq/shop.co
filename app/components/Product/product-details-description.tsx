@@ -1,3 +1,5 @@
+import AddButton from "../add-button";
+import ColorSelector from "../color-selector";
 import SizeSelector from "../size-selector";
 import { Button } from "../ui/button";
 import { Separator } from "../ui/separator";
@@ -25,7 +27,7 @@ export default function ProductDetailsDescription() {
         </p>
         <Separator className="my-6" />
         <p className="font-satoshi pb-4 text-sm">Select Colors</p>
-        <img src="/images/colors.png" alt="Color options" />
+        <ColorSelector />
         <Separator className="my-6" />
         <p className="font-satoshi pb-4 text-sm">Choose Size</p>
         <SizeSelector />
@@ -33,12 +35,7 @@ export default function ProductDetailsDescription() {
       </div>
       <div className="mt-auto">
         <div className="grid grid-cols-3 gap-3">
-          <Button
-            variant="secondary"
-            className="font-satoshi col-span-1  h-[44px] rounded-full text-base md:h-[52px]"
-          >
-            - 1 +
-          </Button>
+          <AddButton />
           <Button className="col-span-2 h-[44px] w-full rounded-full  font-satoshiLight text-base md:h-[52px] ">
             Add to card
           </Button>

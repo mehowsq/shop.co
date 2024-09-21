@@ -19,6 +19,7 @@ const config = {
     },
     fontFamily: {
       satoshiLight: ["Satoshi-Light", "sans-serif"],
+      satoshiMedium: ["Satoshi-Medium", "sans-serif"],
       satoshiBlack: ["Satoshi-Black", "sans-serif"],
       satoshiBold: ["Satoshi-Bold", "sans-serif"],
       integralCF: ["Integral CF", "san-serif"],
