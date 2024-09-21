@@ -6,20 +6,20 @@ import Footer from "~/components/footer";
 
 export default function Products() {
   return (
-    <>
+    <div className="flex min-h-screen flex-col">
       <Navigation />
-      <div className="p-4 md:px-24">
+      <div className="flex-grow p-4 md:px-24">
         <Separator className="my-6" />
-        <div className="flex flex-col lg:flex-row lg:gap-10">
+        <div className="flex h-full flex-col lg:flex-row lg:gap-10">
           <div className="lg:w-1/2">
             <ProductDetailsPreview />
           </div>
-          <div className="lg:w-1/2">
+          <div className="flex lg:w-1/2">
             <ProductDetailsDescription />
           </div>
         </div>
       </div>
       {/* <Footer /> */}
-    </>
+    </div>
   );
 }
