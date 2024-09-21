@@ -9,6 +9,7 @@ import ProductCategorySection from "~/components/product-category-section";
 import HeroSection from "~/components/hero-section";
 import Newsletter from "~/components/Newsletter/Newsletter";
 import Footer from "~/components/footer";
+import Products from "./products";
 
 export const meta: MetaFunction = () => {
   return [
@@ -20,15 +21,14 @@ export const meta: MetaFunction = () => {
 export default function Index() {
   return (
     <>
-      <DiscountCard />
-      <Navigation />
+      <Products />
+      {/* <Navigation />
       <HeroSection />
       <BrandsCard />
       <ProductsSection />
       <ProductCategorySection />
       <FeedbackSection />
-      <Newsletter />
-      <Footer />
+      <Footer /> */}
     </>
   );
 }
