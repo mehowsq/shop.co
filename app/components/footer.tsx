@@ -59,13 +59,13 @@ export default function Footer() {
             <p className="text-[#00000099]">
               Shop.co © 2000-2023, All Rights Reserved
             </p>
-            {/* <div className="flex flex-row gap-3">
-            <img src="/images/facebook.svg"></img>
-            <img src="/images/facebook.svg"></img>
-            <img src="/images/facebook.svg"></img>
-            <img src="/images/facebook.svg"></img>
-            <img src="/images/facebook.svg"></img>
-          </div> */}
+            <div className="flex flex-row">
+              <img src="/images/visa-icon.svg"></img>
+              <img src="/images/mastercard-icon.svg"></img>
+              <img src="/images/paypal-icon.svg"></img>
+              <img src="/images/applepay-icon.svg"></img>
+              <img src="/images/googlepay-icon.svg"></img>
+            </div>
           </div>
         </div>
       </div>
