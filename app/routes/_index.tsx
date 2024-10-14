@@ -22,13 +22,13 @@ export default function Index() {
   return (
     <>
       <Products />
-      {/* <Navigation /> */}
-      {/* <HeroSection /> */}
-      {/* <BrandsCard /> */}
-      {/* <ProductsSection /> */}
-      {/* <ProductCategorySection /> */}
-      {/* <FeedbackSection /> */}
-      {/* <Footer /> */}
+      {/* <Navigation />
+      <HeroSection />
+      <BrandsCard />
+      <ProductsSection />
+      <ProductCategorySection />
+      <FeedbackSection />
+      <Footer /> */}
     </>
   );
 }
