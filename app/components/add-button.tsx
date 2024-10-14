@@ -1,25 +1,23 @@
-import React, { useState } from "react";
 import { Button } from "./ui/button";
-
 interface AddButtonProps {
-  initialCount?: number;
+  count: number;
+  onCountChange: (newCount: number) => void;
   minCount?: number;
   maxCount?: number;
 }
 
 const AddButton = ({
-  initialCount = 0,
+  count,
+  onCountChange,
   minCount = 0,
   maxCount = 10,
 }: AddButtonProps) => {
-  const [count, setCount] = useState(initialCount);
-
   const handleIncrement = () => {
-    setCount((prevCount) => Math.min(prevCount + 1, maxCount));
+    onCountChange(Math.min(count + 1, maxCount));
   };
 
   const handleDecrement = () => {
-    setCount((prevCount) => Math.max(prevCount - 1, minCount));
+    onCountChange(Math.max(count - 1, minCount));
   };
 
   return (
@@ -30,16 +28,16 @@ const AddButton = ({
         className="h-8 w-8 rounded-full p-0 text-xl font-bold"
         disabled={count <= minCount}
       >
-        <img src="/images/decrease-icon.svg" />
+        <img src="/images/decrease-icon.svg" alt="Decrease" />
       </Button>
-      <span className="font-satoshiMedium w-8 text-center">{count}</span>
+      <span className="w-8 text-center font-satoshiMedium">{count}</span>
       <Button
         variant="ghost"
         onClick={handleIncrement}
-        className="h-8 w-8 rounded-full p-0 text-xl font-bold "
+        className="h-8 w-8 rounded-full p-0 text-xl font-bold"
         disabled={count >= maxCount}
       >
-        <img src="/images/increase-icon.svg" />
+        <img src="/images/increase-icon.svg" alt="Increase" />
       </Button>
     </div>
   );

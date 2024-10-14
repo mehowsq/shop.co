@@ -31,7 +31,7 @@ const ColorSelector = () => {
     { name: "Blue", hex: "#31344F" },
     { name: "Green", hex: "#314F4A" },
   ];
-  const [selectedColor, setSelectedColor] = useState<Color | null>(colors[0]);
+  const [selectedColor, setSelectedColor] = useState<Color>(colors[0]);
 
   const handleColorSelect = (color: Color) => {
     setSelectedColor(color);
