@@ -19,11 +19,7 @@ export default function ProductDetailsDescription() {
           One Life Graphic T-shirt
         </p>
         <div className="flex gap-3">
-          <img
-            src="/images/rating-stars-big.svg"
-            alt="Rating Stars"
-            className="py-4"
-          />
+          <img src="/images/rating-stars-big.svg" className="py-4" />
         </div>
         <p className="pb-5 font-satoshiBlack text-3xl font-bold text-black">
           $260
