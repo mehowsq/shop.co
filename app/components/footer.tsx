@@ -24,32 +24,32 @@ export default function Footer() {
               </div>
               <div className="grid grid-cols-1 gap-8 md:col-span-4 md:grid-cols-4">
                 <div className="flex flex-col gap-4">
-                  <p className="font-satoshi">COMPANY</p>
-                  <p className="font-satoshi">About</p>
-                  <p className="font-satoshi">Features</p>
-                  <p className="font-satoshi">Works</p>
-                  <p className="font-satoshi">Career</p>
+                  <p>COMPANY</p>
+                  <p>About</p>
+                  <p>Features</p>
+                  <p>Works</p>
+                  <p>Career</p>
                 </div>
                 <div className="flex flex-col gap-4">
-                  <p className="font-satoshi">HELP</p>
-                  <p className="font-satoshi">Customer Support</p>
-                  <p className="font-satoshi">Delivery Details</p>
-                  <p className="font-satoshi">Terms & Conditions</p>
-                  <p className="font-satoshi">Privacy Policy</p>
+                  <p>HELP</p>
+                  <p>Customer Support</p>
+                  <p>Delivery Details</p>
+                  <p>Terms & Conditions</p>
+                  <p>Privacy Policy</p>
                 </div>
                 <div className="flex flex-col gap-4">
-                  <p className="font-satoshi">FAQ</p>
-                  <p className="font-satoshi">Account</p>
-                  <p className="font-satoshi">Manage Deliveries</p>
-                  <p className="font-satoshi">Orders</p>
-                  <p className="font-satoshi">Payment</p>
+                  <p>FAQ</p>
+                  <p>Account</p>
+                  <p>Manage Deliveries</p>
+                  <p>Orders</p>
+                  <p>Payment</p>
                 </div>
                 <div className="flex flex-col gap-4">
-                  <p className="font-satoshi">RESOURCES</p>
-                  <p className="font-satoshi">Free eBook</p>
-                  <p className="font-satoshi">Development Tutorial</p>
-                  <p className="font-satoshi">How to - Blog</p>
-                  <p className="font-satoshi">Youtube Playlist</p>
+                  <p>RESOURCES</p>
+                  <p>Free eBook</p>
+                  <p>Development Tutorial</p>
+                  <p>How to - Blog</p>
+                  <p>Youtube Playlist</p>
                 </div>
               </div>
             </div>
