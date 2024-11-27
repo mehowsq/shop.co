@@ -103,9 +103,6 @@
 }
 
 @layer base {
-  body {
-    @apply font-satoshiMedium; /* domyślna czcionka dla całej strony */
-  }
   * {
     @apply border-border;
   }
