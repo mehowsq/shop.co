@@ -13,7 +13,7 @@ export default function ProductCard() {
           T-shirt with Tape Details
         </p>
         <div className="flex gap-3">
-          <img src="/images/icon-rating.svg" alt="Rating Stars" />
+          <img src="/images/icon-rating.svg" alt="" />
           <p className="font-satoshiLight text-xs font-bold">4.5/5</p>
         </div>
         <p className="font-satoshi font-bold text-black">$120</p>
