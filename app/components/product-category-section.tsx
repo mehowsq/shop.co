@@ -1,8 +1,9 @@
 import ProductCategoryCard from "~/components/product-category-card";
+import PageContainer from "./PageContainer";
 
 export default function ProductCategorySection() {
   return (
-    <div className="px-4 md:px-[100px]">
+    <PageContainer>
       <div className="rounded-3xl bg-light-white py-10 ">
         <p className="pb-8 text-center font-integralCF text-4xl md:text-5xl">
           BROWSE BY DRESS STYLE
@@ -33,6 +34,6 @@ export default function ProductCategorySection() {
           </div>
         </div>
       </div>
-    </div>
+    </PageContainer>
   );
 }

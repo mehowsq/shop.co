@@ -19,7 +19,6 @@ export default function Products() {
 
   return (
     <div className="flex flex-col">
-      <Navigation />
       <div className="flex-grow p-4 md:px-24">
         <Separator className="my-6" />
         <div className="flex h-full flex-col lg:flex-row lg:gap-10">
@@ -73,7 +72,6 @@ export default function Products() {
         </p>
         <ProductsCarousel />
       </div>
-      <Footer />
     </div>
   );
 }

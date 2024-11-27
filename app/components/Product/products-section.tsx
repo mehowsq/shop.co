@@ -1,10 +1,11 @@
 import ProductsCarousel from "~/components/Product/products-carousel";
 import { Button } from "~/components/ui/button";
 import { Separator } from "~/components/ui/separator";
+import PageContainer from "../PageContainer";
 
 export default function ProductsSection() {
   return (
-    <div>
+    <PageContainer>
       <div className="pt-12">
         <p className="pb-8 text-center font-integralCF text-3xl md:text-5xl">
           NEW ARRIVALS
@@ -35,6 +36,6 @@ export default function ProductsSection() {
           </Button>
         </div>
       </div>
-    </div>
+    </PageContainer>
   );
 }

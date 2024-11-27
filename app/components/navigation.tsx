@@ -1,6 +1,7 @@
 import { MenubarDemo } from "~/components/menu";
 import SearchBar from "~/components/search";
 import DiscountCard from "./discount-card";
+import { Link } from "@remix-run/react";
 
 export default function Navigation() {
   return (
@@ -13,7 +14,9 @@ export default function Navigation() {
             alt="Menu Icon"
             className="inline md:hidden"
           />
-          <p className="font-integralCF text-2xl md:text-[32px]">SHOP.CO</p>
+          <Link to="/" className="font-integralCF text-2xl md:text-[32px]">
+            SHOP.CO
+          </Link>
         </div>
 
         <MenubarDemo />
@@ -25,7 +28,10 @@ export default function Navigation() {
             alt="Search icon"
             className="inline md:hidden"
           />
-          <img src="/images/cart-icon.svg" alt="Cart icon" />
+          <Link to="/cart" className="font-integralCF text-2xl md:text-[32px]">
+            <img src="/images/cart-icon.svg" alt="Cart icon" />
+          </Link>
+
           <img src="/images/profile-icon.svg" alt="Profile icon" />
         </div>
       </div>
