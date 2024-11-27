@@ -1,9 +1,7 @@
 import { useState } from "react";
 import { Separator } from "~/components/ui/separator";
-import Navigation from "~/components/navigation";
 import ProductDetailsDescription from "~/components/Product/product-details-description";
 import ProductDetailsPreview from "~/components/Product/product-details-preview";
-import Footer from "~/components/footer";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "~/components/ui/tabs";
 import FeedbackCard from "~/components/Feedback/feedback-card";
 import ProductsCarousel from "~/components/Product/products-carousel";
