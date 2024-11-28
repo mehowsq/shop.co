@@ -14,37 +14,14 @@ import {
   MenubarTrigger,
 } from "~/components/ui/menubar";
 import { ChevronDown } from "lucide-react";
+import { Link } from "@remix-run/react";
 export function MenubarDemo() {
   return (
     <Menubar className="hidden md:flex">
       <MenubarMenu>
         <MenubarTrigger>
-          Shop <ChevronDown strokeWidth={1.5} size={20} />
+          <Link to="/products">Shop</Link>
         </MenubarTrigger>
-        <MenubarContent>
-          <MenubarItem>
-            New Tab <MenubarShortcut>⌘T</MenubarShortcut>
-          </MenubarItem>
-          <MenubarItem>
-            New Window <MenubarShortcut>⌘N</MenubarShortcut>
-          </MenubarItem>
-          <MenubarItem disabled>New Incognito Window</MenubarItem>
-          <MenubarSeparator />
-          <MenubarSub>
-            <MenubarSubTrigger>Share</MenubarSubTrigger>
-            <MenubarSubContent>
-              <MenubarItem>Email link</MenubarItem>
-
-              <MenubarItem>Messages</MenubarItem>
-              <MenubarItem>Notes</MenubarItem>
-            </MenubarSubContent>
-          </MenubarSub>
-
-          <MenubarSeparator />
-          <MenubarItem>
-            Print... <MenubarShortcut>⌘P</MenubarShortcut>
-          </MenubarItem>
-        </MenubarContent>
       </MenubarMenu>
       <MenubarMenu>
         <MenubarTrigger>On Sale</MenubarTrigger>
