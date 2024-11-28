@@ -7,7 +7,7 @@ export default function Navigation() {
   return (
     <>
       <DiscountCard />
-      <div className="bottom-[50%] flex items-center justify-between px-4 pt-6 md:px-24">
+      <div className="bottom-[50%] z-50 flex items-center justify-between px-4 py-6 shadow-md md:px-24">
         <div className="flex items-center gap-4">
           <img
             src="/images/menu-burger-icon.svg"

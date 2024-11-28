@@ -16,7 +16,7 @@ export const meta: MetaFunction = () => {
 export default function Index() {
   return (
     <>
-      <Link to="/products" className="...">
+      <Link to="/product-details" className="...">
         Zobacz produkty
       </Link>
       <HeroSection />
